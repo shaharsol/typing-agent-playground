@@ -1,3 +1,63 @@
-p {
-  font-size: 16px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004080;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+.funds-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.funds-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.fund-item {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.site-footer {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
