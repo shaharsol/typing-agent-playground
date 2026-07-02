@@ -1,3 +1,47 @@
-p {
-  font-size: 16px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #0066cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.plumber-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+main {
+    padding: 20px;
+}
+
+.stories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.stories li {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .plumber-image {
+        width: 70px;
+        height: 70px;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
 }
