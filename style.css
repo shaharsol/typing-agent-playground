@@ -42,6 +42,10 @@ h1, h2 {
     margin: 10px 0;
 }
 
+.stories h2 {
+    color: #0000FF;
+}
+
 img {
     max-width: 100%;
     height: auto;
